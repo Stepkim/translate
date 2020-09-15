@@ -23,5 +23,5 @@
             "Stepkim\\Translate\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
