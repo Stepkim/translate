@@ -28,7 +28,7 @@ class Translator implements TranslatorInterface
     public static function getInstance($locale, $fallback)
     {
         if (!self::$instance) {
-            $loader = new FileLoader('');
+            $loader = new FileLoader();
             $translator = new Translator($loader, $locale);
             $translator->setFallback($fallback);
             self::$instance = $translator;

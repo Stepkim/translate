@@ -8,7 +8,7 @@ class FileLoader
     public function __construct($path = '')
     {
         if ($path == '') {
-            $path = dirname(dirname(dirname(__DIR__))) . '/lang';
+            $path = dirname(dirname(dirname(dirname(__DIR__)))) . '/lang';
         }
         $this->path = $path;
     }
