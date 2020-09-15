@@ -1,0 +1,13 @@
+{
+    "name": "stepkim/translate",
+    "description": "the translate tools package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "stepkim",
+            "email": "595003230@qq.com"
+        }
+    ],
+    "require": {}
+}
